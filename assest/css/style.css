@@ -1,5 +1,5 @@
 body {
-    font-family: 'Poppins', sans-serif;
+    font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
     background-color: #e3e3e3;
     margin: 0;
     padding: 0;
@@ -13,7 +13,7 @@ body {
     justify-content: space-between;
     width:100vw;
     height:70px;
-    background-color: #365969;
+    background-color: white;
 }
 .logo {
     width: 50px;
@@ -25,13 +25,33 @@ body {
     list-style: none;
     justify-content: flex-end;
     padding: 0 10px;
-    margin: 10px;
+    margin: 10px 10px;
 
 }
 div a {
     text-decoration: none;
-    color: white;
-    font-size: 18px;
+    color: #c8a2c8;
+    font-size: 20px;
     margin-left: 20px;
-    
 }
+
+main img {
+    width: 100%;
+    height: 40vh;;
+    object-fit: cover;
+    position: absolute;
+    top: 70px;
+    left: 0;
+}
+#header-title {
+    display: flex;
+    position: relative;
+    z-index: 1;
+    margin-left: 60px;
+    color: white;
+    margin-top: 80px;
+
+}
+
+
+/* currently this isn't good for mobile responsiveness */
